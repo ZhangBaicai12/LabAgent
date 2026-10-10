@@ -1,0 +1,12 @@
+{
+  "name": "lab-agent-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lab Agent 演示系统：零依赖 Node 服务 + 数据持久化 + 节点严格执行",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}

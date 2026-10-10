@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DQE · Lab Agent（演示服务）</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- 应用壳由 app.js 的 init() 注入：sidebar / topbar / content / toasts。
+       数据不再内联（data.js 已废弃），由 server.js 的 /api/data 按需载入并持久化到 data/demo.json。 -->
+  <noscript>本演示需要启用 JavaScript。</noscript>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
